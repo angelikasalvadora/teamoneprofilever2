@@ -1,0 +1,335 @@
+.con{
+  height: 40%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pongdes{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#salvades{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#salva{
+  font-family: 'Knewave', cursive;
+  font-size: 60px;
+
+}
+
+#pong{
+  font-family: 'Knewave', cursive;
+  font-size: 60px;
+
+}
+#prof{
+  font-family: 'Pacifico', cursive;
+}
+
+
+/* main handlebars css */
+.team{
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 40px;
+}
+
+header{
+background:#35424a;
+color:#ffffff;
+
+min-height: 90px;
+
+}
+
+header a{ /*names*/
+font-size: 20px;
+font-family: 'Fredoka One', cursive;
+color: white;
+}
+
+header li{
+padding: 0 20px 0 20px ; /* top right bottom left**/
+}
+
+header #branding {
+
+}
+
+header #branding h1{
+margin: 0;
+}
+
+header nav{
+display: inline;
+margin-top: 0px;
+
+}
+
+header .highlight, header .current a{
+color: #e8491d;
+font-weight: bold;
+}
+
+header a:hover{
+font-weight: bold;
+
+}
+.footer {
+font-size: 20px;
+background-color: #35424a;
+color: white;
+padding: 10px;
+text-align: center;
+font-weight: bold;
+  }
+
+
+/* PROFILE PAGE */
+
+/* PROFILE PICTURE */
+.forthewin{
+  border-radius: 50%;
+  margin-top: 40px;
+  width: 390px;
+  height: 390px;
+  margin-left: 30px; }
+
+
+
+/* TWITTER LOGO */
+  #twitter{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* INSTAGRAM LOGO */
+#instagram{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* FACEBOOK LOGO */
+#facebook{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* TRAVEL TEXT */
+.tra{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/* FOOD TEXT */
+.food{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/* TECH TEXT */
+.tech{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.column {
+
+    float: left;
+    padding: 10px;
+  }
+
+  /* Left and right column */
+.column.side {
+  width: 25%;
+  }
+
+  /* Middle column */
+.column.middle {
+  width: 50%;
+
+  }
+
+  /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* OUR NAME IN HEADER */
+p.headername {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: times new roman;
+  font-size: 40px;
+  }
+
+/* PROFILE TXT SALVADORA */
+.picture{
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+/* PROFILE TXT NOFUENTE */
+.picture2{
+  margin-bottom: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/* INFO OF SALVADORA */
+.info2{
+  font-size: 30px;
+  font-family: 'Poor Story', cursive;
+}
+
+/* INFO OF NOFUENTE */
+.info1{
+  font-size: 30px;
+    font-family: 'Poor Story', cursive;
+}
+
+/*HobbiesandInterest Container*/
+.container2{
+  margin-left: 30px;
+}
+
+/* NOFUENTE PROFILE */
+.profnof{
+  margin-left: 30px;
+  border-radius: 50%;
+}
+
+#fo{
+  height: 310px;
+}
+  #techno{
+    width: 700px;
+    height: 310px;
+  }
+
+  .skillbar {
+    margin-top: 20px;
+    width: 95%; /* Full width */
+
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 10%; background-color: #4CAF50;} /* Green */
+.css {width: 30%; background-color: #2196F3;} /* Blue */
+.js {width: 20%; background-color: #f44336;} /* Red */
+.php {width: 25%; background-color: #808080;} /* Dark Grey */
+
+
+/* slideshow for nature */
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
